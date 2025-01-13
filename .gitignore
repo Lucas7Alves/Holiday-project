@@ -1,0 +1,34 @@
+# Ignore arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore pastas geradas pelo Maven
+/target/
+/out/
+
+# Ignore configurações do IntelliJ IDEA
+.idea/
+/*.iml
+
+# Ignore configurações do Eclipse/STS
+.project
+.classpath
+.settings/
+.springBeans
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore arquivos de compilação
+*.class
+
+# Ignore arquivos de configuração sensíveis
+*.properties
+*.yml
+*.yaml
+
+# Ignore arquivos gerados pelo sistema de cache
+/.mvn/
+!/src/main/resources/application.properties
+!/src/main/resources/application.yml
