@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>B&J Frios - Loja virtual </title>
   <link rel="stylesheet" href="styles/navbar.css">
   <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/caroussel.css">
+  <script src="./Js/caroussel.js" defer></script>
 </head>
+
 <body>
   <header class="navbar">
     <img class="logo" src="./imgs/logo-bj.png" alt="">
@@ -15,7 +20,7 @@
       <li><a href="">Carnes</a></li>
       <li><a href="">Contato</a></li>
     </ul>
-    
+
     <div class="zap">
       <img src="./imgs/whatsapp-png.png" alt="">
       <p class="number">(81) 8888-9999</p>
@@ -23,22 +28,101 @@
 
     <div class="searchBar">
       <input type="text" id="txtSearch" placeholder="Buscar...">
-      <button class="btnSearch" type="button" >Buscar</button>
+      <button class="btnSearch" type="button">Buscar</button>
     </div>
   </header>
-  
+
   <main class="main">
 
+    <section class="container-slider">
+      <button id="prev-button">
+        <img src="./imgs/arrow.png" alt="">
+      </button>
+
+      <div class="container-images">
+        <img src="./imgs/banner-queijo.jpeg" alt="" class="slider on">
+        <img src="./imgs/banner-reino.jpg" alt="" class="slider">
+      </div>
+
+      <button id="next-button">
+        <img src="./imgs/arrow.png" alt="">
+      </button>
+    </section>
+
+    <hr>
+
+    <h1 class="title">Produtos</h1>
+
+    <section class="products">
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+      <div class="boxProduct">
+        <p>🧀</p>
+      </div>
+
+
+    </section>
+
+
     <section class="starProduct">
-      
+
     </section>
 
 
   </main>
 
+  <hr>
   <footer class="footer">
+    <div class="block">
+      <p class="category">CATEGORIA</p>
+      <p class="txtFooter">Queijo</p>
+      <p class="txtFooter">Kits de queijo</p>
+      <p class="txtFooter">Mel</p>
+      <p class="txtFooter">Melaço de cana</p>
+      <p class="txtFooter">Manteiga</p>
+      <p class="txtFooter">Manteiga de garrafa</p>
+    </div>
 
+    <div class="block">
+      <p class="category">ATENDIMENTO</p>
+      <p class="txtFooter">Email: bj@gmail.com</p>
+      <p class="category">HORÁRIOS</p>
+      <p class="txtFooter">Seg a Sab das 7h as 19h</p>
+    </div>
+
+    <div class="block">
+      <p class="category">ACOMPANHE NAS REDES</p>
+      <p class="txtFooter">logo</p>
+
+    </div>
   </footer>
 
 </body>
+
 </html>
