@@ -23,7 +23,7 @@ function nextSlider() {
 }
 
 function prevSlider() {
-  hideSlider;
+  hideSlider();
   if (currentSlide === 0) {
     currentSlide = slider.length - 1;
   } else {
